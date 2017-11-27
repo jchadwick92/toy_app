@@ -3,5 +3,6 @@ class PagesController < ApplicationController
   end
 
   def about
+    # renders views/pages/about.html.erb
   end
 end
