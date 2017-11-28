@@ -10,5 +10,7 @@ root 'pages#home'
 
 get 'about' => 'pages#about' # when about link is clicked, this directs us to pages_controller
 
+get 'test' => "pages#test"
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
